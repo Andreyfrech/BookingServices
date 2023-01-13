@@ -47,7 +47,7 @@ namespace BookingServices.Repository
             }
         }
 
-        public async Task<ServicesObject> GetServicesObjectAsync(Guid id, bool includeBooking = false)
+        public async Task<ServicesObject> GetServicesObjectAsync(Guid? id, bool includeBooking = false)
         {
             try
             {
